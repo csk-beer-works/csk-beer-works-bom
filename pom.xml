@@ -45,6 +45,18 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
@@ -87,7 +99,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>1.18.20</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mapstruct</groupId>
@@ -226,17 +238,17 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<scm>
-        <connection>scm:git:git@github.com:csk-beer-works/csk-beer-works-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:csk-beer-works/csk-beer-works-bom.git</developerConnection>
-        <url>https://github.com/csk-beer-works/csk-beer-works-bom</url>
-        <tag>HEAD</tag>
-    </scm>
 
-    <issueManagement>
-        <url>https://github.com/sfg-beer-works/sfg-beer-works/issues</url>
-        <system>GitHub</system>
-    </issueManagement>
+	<scm>
+		<connection>scm:git:git@github.com:csk-beer-works/csk-beer-works-bom.git</connection>
+		<developerConnection>scm:git:git@github.com:csk-beer-works/csk-beer-works-bom.git</developerConnection>
+		<url>https://github.com/csk-beer-works/csk-beer-works-bom</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<url>https://github.com/sfg-beer-works/sfg-beer-works/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
 
 </project>
